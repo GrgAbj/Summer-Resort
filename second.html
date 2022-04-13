@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="gg.js"></script>
+    <link rel="stylesheet" href="reso.css">
+    <title>Document</title>
+</head>
+<body>
+    <label >Resort Name:</label>
+    <select  onchange="changeLoc()" style="background-color: grey;" name="resort" id="resortName">Resort Name
+        <option  value="Eddeh Sands">Eddeh Sands</option>
+        <option  value="Oceana">Oceana</option>
+        <option  value="Bamboo Bay">Bamboo Bay</option>
+        
+
+      
+    </select>
+    <label>Location:
+    </label>
+        <input readonly type="text" id="loc">
+    
+  
+</br> 
+</br>
+<label>
+    Membership:
+    </label>
+        <input id="onemo" type="radio" name="radiosample" onclick="tata1()" >1 month
+        <input id="threemo" type="radio" name="radiosample" onclick="tata2()">3 months
+        <input id="oneye" type="radio" name="radiosample" onclick="tata3()">1 year</br>
+        <div>
+        <input  type="radio" id="others" name="radiosample"  onclick="tata()">Others 
+        <select  disabled style="width: 13%;"  id="opt" >
+            <option value="" selected></option>
+            <option value="2 Years">2 Years</option>
+            <option value="3 years">3 Years</option>
+            <option value="lifetime">Lifetime</option>
+        </select> </div></br>
+        
+    </label>
+    </br>  
+</br>
+<label >
+    <td> Rent Choice:
+        <input type="checkbox" id="cabinet" name="rent">Cabinet
+        <input type="checkbox" id="chalet" name="rent">Chalet 
+        </td>
+    </label>
+    
+        
+
+
+
+</body>
+</html>

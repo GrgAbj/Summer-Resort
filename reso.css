@@ -1,0 +1,29 @@
+.bttn{
+    text-align: right;
+}
+
+#cmnts{
+    vertical-align: top;
+}
+
+.ozrs{
+    margin-left: 89px;
+}
+#resortName{
+    width: 13%;
+}
+#opt{
+    background-color: grey;
+}
+
+#btn1{
+    background-color: grey;
+}
+#btn2{
+    background-color: grey;
+}
+label{
+    color:#000080;
+    font-family: courier new 12 ;
+    text-align: justify;
+}
